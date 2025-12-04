@@ -11,7 +11,7 @@ echo "開始執行訓練 (使用 ImageNet 預訓練)..."
 # 3. 確保 --pretrained_dir 指向我們剛建立的資料夾 (預設就是 ./trained_models/imagenet，所以其實可以不寫，但寫出來比較清楚)
 
 python train.py \
-    --dataset_dir /mnt/8tb_hdd2/ContMAV/datasets/cityscapes \
+    --dataset_dir ./ContMAV/datasets/cityscapes \
     --batch_size 8 \
     --epochs 400 \
     --pretrained_dir ./trained_models/imagenet \
