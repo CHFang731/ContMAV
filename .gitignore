@@ -1,0 +1,10 @@
+datasets/
+results/
+trained_models/
+runs/
+
+*.pth
+*.pickle
+__pycache__/
+*.pyc
+
