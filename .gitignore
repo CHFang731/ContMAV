@@ -1,10 +1,28 @@
+# 忽略資料集資料夾
 datasets/
+dataset_AnomalyTrack/
+
+# 忽略訓練產出的資料夾
+runs/
 results/
 trained_models/
-runs/
 
-*.pth
-*.pickle
+# 忽略所有大型壓縮檔
+*.zip
+*.tar.gz
+*.rar
+
+# 忽略 Python 編譯檔與快取
 __pycache__/
 *.pyc
 
+# 忽略模型權重檔 (通常很大)
+*.pth
+*.pt
+*.ckpt
+
+# 忽略 Pickle 序列化檔案 (看你是否需要，通常不建議上傳 binary)
+*.pickle
+
+# 忽略環境設定檔 (避免上傳私密金鑰)
+.env

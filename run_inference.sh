@@ -5,9 +5,9 @@ echo "正在重設 PYTORCH_CUDA_ALLOC_CONF..."
 unset PYTORCH_CUDA_ALLOC_CONF
 
 # 2. 設定參數 (您可以在這裡修改圖片路徑)
-IMG_PATH="./datasets/cityscapes/test/rgb/berlin/berlin_000000_000019_leftImg8bit.png"
-CKPT_PATH="./results/cityscapes/Test_Run_Script/25_11_2025-20_12_11-510555/ckpt_latest.pth"
-SAVE_PATH="result_berlin.png"
+IMG_PATH="./dataset_AnomalyTrack/images/elephant0000.jpg"
+CKPT_PATH="/mnt/8tb_hdd2/ContMAV/results/cityscapes/Test_With_Pretrained2/30_11_2025-17_24_46-723110/best_miou.pth"
+SAVE_PATH="result_elephant.png"
 
 echo "Processing: $IMG_PATH"
 
